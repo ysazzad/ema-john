@@ -11,11 +11,13 @@
     border: 1px solid #95A0A7;
     border-radius: 8px;
     position: relative;
+    margin: 20px 20px;
 }
 
 .product-info p {
     margin-bottom: 0;
     margin-top: 5px;
+    margin-left: 5px;
 }
 
 .product-name {
@@ -26,6 +28,10 @@
 
 }
 
+.btn-text {
+    margin-right: 5px;
+}
+
 .btn-cart {
     width: 100%;
     background: #FFE0B3;
@@ -33,6 +39,9 @@
     border-radius: 0px 0px 8px 8px;
     position: absolute;
     bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-cart:hover {
